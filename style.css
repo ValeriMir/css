@@ -1,0 +1,38 @@
+.div_1{
+    background-image: url("img.jpg");
+    background-repeat: repeat;
+    border: 1px solid black;
+    height: 150px;
+    color: white;
+}
+
+
+.div_2{
+    margin: 5px;
+    background-image: url("img.jpg");
+    border: 1px solid black;
+    background-repeat: repeat-x;
+    background-position: bottom;
+    height: 150px;
+}
+
+.div_3{
+    margin: 5px;
+    background-image: url("img.jpg");
+    border: 1px solid black;
+    background-repeat: repeat-y;
+    background-position: right;
+    height: 150px;
+}
+
+.div_4{
+    margin: 5px;
+    background-image: url("img.jpg");
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    background-position: top right;
+    height: 150px;
+    background-color: green;
+    color: white;
+}
+

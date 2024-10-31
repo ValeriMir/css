@@ -1,0 +1,29 @@
+.all{
+    display: flex;
+}
+
+.sq{
+     background-color: blue;
+     width: 300px;
+     height: 300px;
+     margin:30px;
+     border: 1px solid black;
+}
+
+
+.sq:hover{
+    background-color: brown;
+}
+
+
+img{
+    height: 200px;
+    width: 250px;
+    padding: 10px;
+}
+
+p{
+    color: white;
+    text-align: center;
+}
+
