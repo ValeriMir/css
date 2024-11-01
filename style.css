@@ -1,38 +1,80 @@
-.div_1{
-    background-image: url("img.jpg");
-    background-repeat: repeat;
+.parent{
+    width: 320px;
+    height: 400px;
+    border: 0.5px solid black;
+    margin:auto;
+    background-color: blue;
+}
+
+.child{
+    width: 220px;
+    height: 300px;
     border: 1px solid black;
-    height: 150px;
+    margin:50px auto;
+    background-color: white;
+}
+
+.fimg{
+    display:flex;
+    margin-top:25px;
+    margin-left: 10px;
+    
+}
+
+.faceb{
+    text-decoration: none;
+    background-color: blue;
+    color: aliceblue;
+}
+
+.login{
+    text-align: center;
+    display: inline;
+    margin: 70px;
+    font-size: 25px;
+}
+
+.or{
+    text-align: center;
+}
+
+.fb{
+    width: 35px;
+    height: 25px;
+    display: inline;
+}
+
+.userimg{
+    display: flex;
+    margin: 10px;
+}
+
+.passimg{
+    display: flex;
+    margin:10px;
+}
+
+.human{
+    width: 25px;
+    height: 20px;
+    margin: 2px;
+
+}
+
+.key{
+    width: 25px;
+    height: 20px;
+    margin-left: 2px;
+}
+
+
+.sub{
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 100px;
+    background-color: blue;
     color: white;
 }
 
 
-.div_2{
-    margin: 5px;
-    background-image: url("img.jpg");
-    border: 1px solid black;
-    background-repeat: repeat-x;
-    background-position: bottom;
-    height: 150px;
-}
-
-.div_3{
-    margin: 5px;
-    background-image: url("img.jpg");
-    border: 1px solid black;
-    background-repeat: repeat-y;
-    background-position: right;
-    height: 150px;
-}
-
-.div_4{
-    margin: 5px;
-    background-image: url("img.jpg");
-    border: 1px solid black;
-    background-repeat: no-repeat;
-    background-position: top right;
-    height: 150px;
-    background-color: green;
-    color: white;
-}
 
